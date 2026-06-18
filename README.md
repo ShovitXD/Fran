@@ -18,16 +18,16 @@ The project combines speech recognition, local LLM inference, Twitch event integ
 
 ## Architecture
 
-Voice Input
-→ Faster-Whisper
-→ Local LLM
-→ Gemini TTS
+Voice Input  
+→ Faster-Whisper  
+→ Local LLM  
+→ Gemini TTS  
 → Audio Output
 
-Twitch Events
-→ Event Listener
-→ Local LLM
-→ Gemini TTS
+Twitch Events  
+→ Event Listener  
+→ Local LLM  
+→ Gemini TTS  
 → Audio Output
 
 ## Technologies Used
