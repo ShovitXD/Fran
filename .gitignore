@@ -1,0 +1,6 @@
+*.safetensors
+*.safetensors
+__pycache__/
+*.pyc
+venv/
+unsloth_compiled_cache/
