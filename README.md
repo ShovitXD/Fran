@@ -82,3 +82,54 @@ Selected conversations can be saved as structured JSONL training samples:
     }
   ]
 }
+```
+
+This allows iterative personality improvements through future fine-tuning.
+
+## Model Setup
+
+The repository does not include the base language model because GitHub file size limits make it impractical to distribute large model weights through the repository.
+
+The original version of Fran used **Llama 3.1 8B** as the base model, which was stored in:
+
+```text
+D:/Fran/brain/base_model
+```
+
+The model files are intentionally excluded from this repository.
+
+Fran is not tied to Llama 3.1 8B. You can replace it with any compatible chat or instruction-tuned model supported by Hugging Face Transformers by updating the model path in the configuration.
+
+When replacing the model, ensure that:
+
+- The tokenizer matches the selected model
+- The model supports chat-style prompting
+- Available VRAM is sufficient for the chosen model
+- Generation settings are adjusted if necessary
+
+## Current Capabilities
+
+- Voice-based conversations
+- Twitch event reactions
+- Character-driven responses
+- Context-aware chat history
+- Real-time speech generation
+- Training data collection
+
+## Future Plans
+
+- Improved memory systems
+- Additional Twitch interactions
+- Automated fine-tuning pipeline
+- Enhanced personality training
+- Multi-character support
+
+## Repository
+
+Source code:
+
+https://github.com/ShovitXD/Fran
+
+## Disclaimer
+
+Fran is a personal learning and experimentation project focused on conversational AI, speech systems, real-time event processing, and LLM fine-tuning workflows.
